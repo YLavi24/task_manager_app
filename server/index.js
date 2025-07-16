@@ -10,9 +10,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: process.env.NODE_ENV === 'production' 
-    ? process.env.FRONTEND_URL || '*'
-    : 'http://localhost:3000',
+  origin: 'https://task-manager-app-clinet.vercel.app',
   credentials: true
 }));
 app.use(express.json());
