@@ -12,7 +12,6 @@
 6. הוסף את משתני הסביבה הבאים:
    ```
    PORT=5000
-   MONGODB_URI=mongodb+srv://taskmanager:taskmanager123@lavi1.o0milfd.mongodb.net/?retryWrites=true&w=majority&appName=Lavi1
    JWT_SECRET=your_jwt_secret_key_here_change_in_production_2024_task_manager_app
    NODE_ENV=production
    ```
@@ -98,6 +97,7 @@ npm start
 ```
 
 ## טיפים חשובים
+   MONGODB_URI=mongodb+srv://taskmanager:taskmanager123@lavi1.o0milfd.mongodb.net/?retryWrites=true&w=majority&appName=Lavi1
 
 1. **אבטחה**: שנה את JWT_SECRET לערך חזק ויחודי
 2. **CORS**: וודא שהשרת מאפשר בקשות מהדומיין של הקליינט
